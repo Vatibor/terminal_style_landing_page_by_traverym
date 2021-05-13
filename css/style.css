@@ -58,6 +58,9 @@ nav ul li{
     cursor: pointer;
 }
 
+p{
+    margin: 20px 0;
+}
 .container{
     max-width: 600px;
     margin: auto;
@@ -75,6 +78,12 @@ nav ul li{
 .cursor{
     font-weight: 700;
     animation: 1s blink step-end infinite;
+}
+
+
+.wb-body{
+    background: #111;
+    padding: 20px;
 }
 
 @keyframes blink {
